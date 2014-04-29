@@ -1,0 +1,189 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gh0st - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/gh0st.res" /d "NDEBUG" "E:\gh0st\gh0st\gh0st.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP155.tmp" with contents
+[
+/nologo /MD /GX /O2 /I "CJ60lib/Include" /I "../common" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/gh0st.pch" /YX"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\gh0st\common\Audio.cpp"
+"E:\gh0st\gh0st\AudioDlg.cpp"
+"E:\gh0st\gh0st\BmpToAvi.cpp"
+"E:\gh0st\gh0st\control\BtnST.cpp"
+"E:\gh0st\gh0st\include\Buffer.cpp"
+"E:\gh0st\gh0st\BuildView.cpp"
+"E:\gh0st\gh0st\include\CpuUsage.cpp"
+"E:\gh0st\gh0st\CustomTabCtrl.cpp"
+"E:\gh0st\gh0st\FileManagerDlg.cpp"
+"E:\gh0st\gh0st\FileTransferModeDlg.cpp"
+"E:\gh0st\gh0st\gh0st.cpp"
+"E:\gh0st\gh0st\gh0stDoc.cpp"
+"E:\gh0st\gh0st\gh0stView.cpp"
+"E:\gh0st\gh0st\control\HoverEdit.cpp"
+"E:\gh0st\gh0st\IniFile.cpp"
+"E:\gh0st\gh0st\InputDlg.cpp"
+"E:\gh0st\gh0st\include\IOCPServer.cpp"
+"E:\gh0st\gh0st\KeyBoardDlg.cpp"
+"E:\gh0st\gh0st\MainFrm.cpp"
+"E:\gh0st\gh0st\ScreenSpyDlg.cpp"
+"E:\gh0st\gh0st\SettingsView.cpp"
+"E:\gh0st\gh0st\SEU_QQwry.cpp"
+"E:\gh0st\gh0st\ShellDlg.cpp"
+"E:\gh0st\gh0st\SystemDlg.cpp"
+"E:\gh0st\gh0st\TabSDIFrameWnd.cpp"
+"E:\gh0st\gh0st\ThemeUtil.cpp"
+"E:\gh0st\gh0st\TrayIcon.cpp"
+"E:\gh0st\gh0st\TrueColorToolBar.cpp"
+"E:\gh0st\gh0st\WebCamDlg.cpp"
+"E:\gh0st\gh0st\control\WinXPButtonST.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP155.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP156.tmp" with contents
+[
+/nologo /MD /GX /O2 /I "CJ60lib/Include" /I "../common" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/gh0st.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\gh0st\gh0st\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP156.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP157.tmp" with contents
+[
+../common/zlib/zlib.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/gh0st.pdb" /map:"Release/gh0st.map" /machine:I386 /nodefaultlib:"msvcrt.lib" /out:"../Bin/gh0st.exe" /libpath:"CJ60Lib/lib" 
+.\Release\Audio.obj
+.\Release\AudioDlg.obj
+.\Release\BmpToAvi.obj
+.\Release\BtnST.obj
+.\Release\Buffer.obj
+.\Release\BuildView.obj
+.\Release\CpuUsage.obj
+.\Release\CustomTabCtrl.obj
+.\Release\FileManagerDlg.obj
+.\Release\FileTransferModeDlg.obj
+.\Release\gh0st.obj
+.\Release\gh0stDoc.obj
+.\Release\gh0stView.obj
+.\Release\HoverEdit.obj
+.\Release\IniFile.obj
+.\Release\InputDlg.obj
+.\Release\IOCPServer.obj
+.\Release\KeyBoardDlg.obj
+.\Release\MainFrm.obj
+.\Release\ScreenSpyDlg.obj
+.\Release\SettingsView.obj
+.\Release\SEU_QQwry.obj
+.\Release\ShellDlg.obj
+.\Release\StdAfx.obj
+.\Release\SystemDlg.obj
+.\Release\TabSDIFrameWnd.obj
+.\Release\ThemeUtil.obj
+.\Release\TrayIcon.obj
+.\Release\TrueColorToolBar.obj
+.\Release\WebCamDlg.obj
+.\Release\WinXPButtonST.obj
+.\Release\gh0st.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP157.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Automatically linking with CJ60StaticLib.lib
+Compiling...
+Audio.cpp
+AudioDlg.cpp
+Automatically linking with CJ60StaticLib.lib
+BmpToAvi.cpp
+BtnST.cpp
+E:\gh0st\gh0st\control\BtnST.cpp(22) : warning C4005: 'BS_TYPEMASK' : macro redefinition
+        C:\Program Files\Microsoft Platform SDK for Windows XP SP2\Include\winuser.h(8754) : see previous definition of 'BS_TYPEMASK'
+Buffer.cpp
+BuildView.cpp
+CpuUsage.cpp
+CustomTabCtrl.cpp
+FileManagerDlg.cpp
+E:\gh0st\gh0st\FileManagerDlg.cpp(1577) : warning C4129: '*' : unrecognized character escape sequence
+E:\gh0st\gh0st\FileManagerDlg.cpp(1864) : warning C4129: '*' : unrecognized character escape sequence
+E:\gh0st\gh0st\FileManagerDlg.cpp(1888) : warning C4129: '*' : unrecognized character escape sequence
+E:\gh0st\gh0st\FileManagerDlg.cpp(1905) : warning C4129: '*' : unrecognized character escape sequence
+FileTransferModeDlg.cpp
+gh0st.cpp
+gh0stDoc.cpp
+gh0stView.cpp
+HoverEdit.cpp
+IniFile.cpp
+InputDlg.cpp
+IOCPServer.cpp
+KeyBoardDlg.cpp
+MainFrm.cpp
+ScreenSpyDlg.cpp
+SettingsView.cpp
+SEU_QQwry.cpp
+ShellDlg.cpp
+SystemDlg.cpp
+TabSDIFrameWnd.cpp
+ThemeUtil.cpp
+TrayIcon.cpp
+TrueColorToolBar.cpp
+WebCamDlg.cpp
+WinXPButtonST.cpp
+Linking...
+LINK : warning LNK4049: locally defined symbol "__mbsnbcpy" imported
+LINK : warning LNK4049: locally defined symbol "_memmove" imported
+LINK : warning LNK4049: locally defined symbol "_ceil" imported
+LINK : warning LNK4049: locally defined symbol "_strstr" imported
+LINK : warning LNK4049: locally defined symbol "__mbscmp" imported
+LINK : warning LNK4049: locally defined symbol "_vsprintf" imported
+LINK : warning LNK4049: locally defined symbol "_free" imported
+LINK : warning LNK4049: locally defined symbol "_malloc" imported
+LINK : warning LNK4049: locally defined symbol "_atol" imported
+LINK : warning LNK4049: locally defined symbol "_wcslen" imported
+LINK : warning LNK4049: locally defined symbol "_wcscpy" imported
+LINK : warning LNK4049: locally defined symbol "__beginthreadex" imported
+LINK : warning LNK4049: locally defined symbol "_atoi" imported
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP15B.tmp" with contents
+[
+/nologo /o"Release/gh0st.bsc" 
+.\Release\StdAfx.sbr
+.\Release\Audio.sbr
+.\Release\AudioDlg.sbr
+.\Release\BmpToAvi.sbr
+.\Release\BtnST.sbr
+.\Release\Buffer.sbr
+.\Release\BuildView.sbr
+.\Release\CpuUsage.sbr
+.\Release\CustomTabCtrl.sbr
+.\Release\FileManagerDlg.sbr
+.\Release\FileTransferModeDlg.sbr
+.\Release\gh0st.sbr
+.\Release\gh0stDoc.sbr
+.\Release\gh0stView.sbr
+.\Release\HoverEdit.sbr
+.\Release\IniFile.sbr
+.\Release\InputDlg.sbr
+.\Release\IOCPServer.sbr
+.\Release\KeyBoardDlg.sbr
+.\Release\MainFrm.sbr
+.\Release\ScreenSpyDlg.sbr
+.\Release\SettingsView.sbr
+.\Release\SEU_QQwry.sbr
+.\Release\ShellDlg.sbr
+.\Release\SystemDlg.sbr
+.\Release\TabSDIFrameWnd.sbr
+.\Release\ThemeUtil.sbr
+.\Release\TrayIcon.sbr
+.\Release\TrueColorToolBar.sbr
+.\Release\WebCamDlg.sbr
+.\Release\WinXPButtonST.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP15B.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+gh0st.exe - 0 error(s), 18 warning(s)
+</pre>
+</body>
+</html>
